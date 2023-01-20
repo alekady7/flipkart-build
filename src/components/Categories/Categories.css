@@ -1,0 +1,15 @@
+.categories__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 30px;
+}
+
+.categories__list>img {
+    width: 70px;
+}
+
+.categories__list>p {
+    font-size: 14px;
+    font-weight: bold;
+}

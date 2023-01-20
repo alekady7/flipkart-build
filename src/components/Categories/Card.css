@@ -1,0 +1,16 @@
+.single__category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.single__category>img {
+    width: 70px;
+}
+
+.single__category>p {
+    font-size: 14px;
+    font-weight: bold;
+}

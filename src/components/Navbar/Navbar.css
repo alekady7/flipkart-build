@@ -1,0 +1,78 @@
+.navbar {
+    background-color: #287FF0;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    padding: 0 7%;
+}
+
+.navbar__left,
+.name,
+.explore__plus {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 700;
+    color: white;
+}
+
+.searchbar {
+    margin-left: 10px;
+    width: 500px;
+    height: 25px;
+    border-radius: 2px;
+    border-color: white;
+    border-style: none;
+}
+
+.name {
+    font-weight: 800;
+}
+
+.explore__plus {
+    font-size: 10px;
+    display: flex;
+}
+
+.navbar__left__logo {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cart {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__right>p {
+    cursor: pointer;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.banner__button {
+    cursor: pointer;
+    color: #287FF0;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    background-color: white;
+    padding-bottom: 0.5rem;
+}
